@@ -4,9 +4,9 @@ Created on Sat Mar 23 08:41:45 2019
 
 Automatic Correction System of Weld Bead V2.4
 
-名称：焊道自动纠偏系统V2.4
 
-作者: 尚明安
+
+SMA
 
 最后修改日期：201900404 14：34
 """
@@ -35,7 +35,7 @@ from threading import Thread
 ########显示窗口初始化
 
 window = tkinter.Tk()
-window.title("HCMT焊道自动纠偏系统V2.4")
+window.title("HCMT_V2.4")
 window.config(cursor="arrow")
 
 
@@ -528,7 +528,7 @@ output_pixcel_var.set(format(col_drawline))
 
 
 ##############################下面是定义设置区的控件
-name=tkinter.Label(setup_frame_line1,text='恒大高新－－HCMT焊道自动纠偏系统V2.4',bg='pink',font=('黑体',12))
+name=tkinter.Label(setup_frame_line1,text='HCMT_V2.4',bg='pink',font=('黑体',12))
 
 IP_label=tkinter.Label(setup_frame_line2,text='本地的IP地址：',bg='green')
 IP_addr=tkinter.Label(setup_frame_line2,textvariable=IP_addr_var,text='本地的IP地址',bg='black',fg='white')
